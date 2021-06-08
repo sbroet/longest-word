@@ -13,6 +13,7 @@ class Game:
 
     def is_valid(self, word):
         if not word:
+            print("error")
             return False
         letters = self.grid.copy() # Consume letters from the grid
         for letter in word:
