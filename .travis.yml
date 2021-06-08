@@ -1,5 +1,4 @@
 # .travis.yml
-
 language: python
 python: 3.8
 dist: xenial
